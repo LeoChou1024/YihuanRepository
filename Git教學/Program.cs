@@ -14,6 +14,8 @@ string password = Console.ReadLine();
 Console.WriteLine("請輸入註冊姓名：");
 string name = Console.ReadLine();
 
+// 修復登入功能完成
+
 RegisterService service = new RegisterService();
 bool isSuccess = service.Register(account, password, name);
 if (isSuccess)
