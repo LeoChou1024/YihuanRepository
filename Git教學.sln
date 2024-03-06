@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Git教學", "Git教學\Git教學.csproj", "{82989E5D-290E-48E1-96CC-44B49DEC800B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82989E5D-290E-48E1-96CC-44B49DEC800B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82989E5D-290E-48E1-96CC-44B49DEC800B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82989E5D-290E-48E1-96CC-44B49DEC800B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82989E5D-290E-48E1-96CC-44B49DEC800B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
