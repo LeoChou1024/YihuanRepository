@@ -1,6 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Git教學;
 using Git教學.Service;
+
+Console.WriteLine("Hello, World!");
+
+LoginUI.ExcuteLogin();
 
 Console.WriteLine("請輸入註冊帳號：");
 string account = Console.ReadLine();
@@ -11,7 +16,7 @@ string name = Console.ReadLine();
 
 RegisterService service = new RegisterService();
 bool isSuccess = service.Register(account, password, name);
-if(isSuccess)
+if (isSuccess)
     Console.WriteLine("註冊成功！");
-else 
+else
     Console.WriteLine("註冊失敗！");
