@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Git教學
 {
-    internal class UserLoginData
+    internal class UserDataModel
     {
+        public string? ID { get; set; }
+        public string? Password { get; set; }
     }
 }
